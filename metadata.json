@@ -1,42 +1,6 @@
 {
-  "name": "WhatsApp Ban Shield",
-  "description": "Account Safety Monitor & Ban Recovery Tool - Detect ban risks and guide account recovery",
-  "version": "1.0.0",
-  "author": "avresort0-oss",
-  "license": "Educational Use Only",
+  "name": "SafeShield Pro",
+  "description": "Educational cybersecurity diagnostic suite and WhatsApp safe-usage advisor.",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_REAL_TIME_ANALYSIS",
-    "MAJOR_CAPABILITY_RISK_DETECTION",
-    "MAJOR_CAPABILITY_RECOVERY_GUIDANCE"
-  ],
-  "features": {
-    "riskDetection": {
-      "enabled": true,
-      "factors": 8,
-      "description": "Real-time analysis of 8 risk factors"
-    },
-    "banRecovery": {
-      "enabled": true,
-      "steps": 6,
-      "description": "Step-by-step account recovery guide"
-    },
-    "recommendations": {
-      "enabled": true,
-      "description": "Personalized safety recommendations"
-    }
-  },
-  "riskFactorsMonitored": [
-    "Messaging Rates",
-    "Media Uploads",
-    "Contact/Group Additions",
-    "Account Age",
-    "Bot-like Patterns",
-    "Third-party Tools",
-    "Login Attempts",
-    "Status Updates"
-  ],
-  "targetAudience": "WhatsApp Users seeking account safety",
-  "educationalPurpose": true,
-  "disclaimer": "Not affiliated with WhatsApp, Meta, or Facebook. Educational tool only."
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
